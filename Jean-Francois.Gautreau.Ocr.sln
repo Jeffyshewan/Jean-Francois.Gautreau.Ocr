@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeanFrancois.Gautreau.Ocr",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeanFrancois.Gautreau.Ocr.Tests", "JeanFrancois.Gautreau.Ocr.Tests\JeanFrancois.Gautreau.Ocr.Tests.csproj", "{6BAE8986-C5B8-4D2D-8C19-12FB4A8D06BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeanFrancois.Gautreau.Ocr.Console", "JeanFrancois.Gautreau.Ocr.Console\JeanFrancois.Gautreau.Ocr.Console.csproj", "{246E569B-CB46-4178-8044-07A41167BB10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6BAE8986-C5B8-4D2D-8C19-12FB4A8D06BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BAE8986-C5B8-4D2D-8C19-12FB4A8D06BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BAE8986-C5B8-4D2D-8C19-12FB4A8D06BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246E569B-CB46-4178-8044-07A41167BB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246E569B-CB46-4178-8044-07A41167BB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246E569B-CB46-4178-8044-07A41167BB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246E569B-CB46-4178-8044-07A41167BB10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
