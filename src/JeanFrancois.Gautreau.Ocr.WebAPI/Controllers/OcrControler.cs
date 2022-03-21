@@ -26,7 +26,7 @@ public class OcrController : ControllerBase
         }
 
         var ocrResult = await _ocr.ReadTextInImage(images);
-        // Your implementation code
-        throw new NotImplementedException();
+        
+        return ocrResult;
     }
 }
