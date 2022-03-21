@@ -1,5 +1,7 @@
 bin/
 obj/
+.idea/
+Jean-Francois.Gautreau.Ocr.sln.DotSettings.user/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
