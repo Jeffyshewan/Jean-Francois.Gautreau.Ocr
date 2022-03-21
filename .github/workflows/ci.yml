@@ -1,0 +1,23 @@
+﻿name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest 
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.201'
+      - run: dotnet test
+      - run: dotnet publish ./src/JeanFrancois.Gautreau.Ocr.Console/JeanFrancois.Gautreau.Ocr.Console.csproj --self-contained true --output ./win-x64/ocr -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true /p:PublishReadyToRun=true
+      - name: Upload Console Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Publish win-x64 Ocr
+          path: ./win-x64/ocr
