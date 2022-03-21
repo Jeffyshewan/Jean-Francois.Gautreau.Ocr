@@ -22,6 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\src\JeanFrancois.Gautreau.Ocr\JeanFrancois.Gautreau.Ocr.csproj" />
       <ProjectReference Include="..\JeanFrancois.Gautreau.Ocr\JeanFrancois.Gautreau.Ocr.csproj" />
     </ItemGroup>
 
